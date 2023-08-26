@@ -3,7 +3,7 @@
 <package format="3">
   <name>robotiq_hande_description</name>
   <version>1.0.0</version>
-  <description>Custom Robot Description and its calibration</description>
+  <description>Description for Robotiq Hand e Gripper in ROS 2</description>
   <maintainer email="bnbhat311@gmail.com">balachandra</maintainer>
   
   <license>MIT</license>

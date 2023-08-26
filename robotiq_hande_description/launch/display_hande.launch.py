@@ -55,8 +55,8 @@ def generate_launch_description():
     joint_state_publisher_node = Node(
         package='joint_state_publisher_gui',  # In ROS 2, you might want to use `joint_state_publisher_gui` for GUI support
         executable='joint_state_publisher_gui',
-        #name='joint_state_publisher',
-        #parameters=[gui]
+        name='joint_state_publisher',
+        parameters=[gui]
     )
 
     robot_state_publisher_node = Node(
